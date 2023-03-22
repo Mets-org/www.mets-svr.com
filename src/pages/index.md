@@ -4,19 +4,19 @@ title: Welcome
 
 # 規約一覧
 
-## [Met's サーバー利用規約](terms)
+### [Met's サーバー利用規約](terms)
 
 発効日： 2023 年 4 月 1 日
 
 制定： 2023 年 3 月 22 日
 
-## [Met's サーバーコミュニティガイドライン](community-guideline)
+### [Met's サーバーコミュニティガイドライン](community-guideline)
 
 発効日： 2023 年 4 月 1 日
 
 制定： 2023 年 3 月 22 日
 
-## [Met's サーバー マインクラフトサーバー利用規約](minecraft)
+### [Met's サーバー マインクラフトサーバー利用規約](minecraft)
 
 発効日： 2023 年 4 月 1 日
 
