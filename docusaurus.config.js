@@ -21,7 +21,7 @@ module.exports = {
     baseUrl: "/",
 
     title: "Met's Server Terms",
-    url: "https://mets-org.github.io/",
+    url: "https://terms.mets-svr.com/",
 
     trailingSlash: false,
     tagline: "Met is so cool!",
