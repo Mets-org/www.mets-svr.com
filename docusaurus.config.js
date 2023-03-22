@@ -21,12 +21,12 @@ module.exports = {
     baseUrl: "/",
 
     title: "Met's Server Terms",
-    url: "https://terms.mets-svr.com/",
+    url: "https://www.mets-svr.com/",
 
     trailingSlash: false,
     tagline: "Met is so cool!",
     organizationName: "Mets-org",
-    projectName: "terms",
+    projectName: "www.mets-svr.com",
     deploymentBranch: "gh-pages",
     favicon: 'img/logo.svg',
     themeConfig: {
@@ -61,7 +61,7 @@ module.exports = {
                     position: 'left',
                 },
                 {
-                    href: "https://mets-srv.com/",
+                    href: "https://mets-svr.com/",
                     label: "公式ページ",
                     position: 'right',
                 },
