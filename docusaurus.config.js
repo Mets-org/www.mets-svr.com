@@ -88,7 +88,7 @@ module.exports = {
                         },
                         {
                             label: 'Twitter',
-                            href: "https://twitter/mets_server",
+                            href: "https://twitter.com/mets_server",
                         },
                     ],
                 },
