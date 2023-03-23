@@ -64,6 +64,7 @@ Met's サーバーへようこそ！
 - optifine, sodium, essential などの軽量化 MOD
 - optifine, iris shaders などの影 MOD
 - journey map, xaero's などの地図 MOD(レーダー機能を除く)
+- wi zoomなどのズーム MOD
 
 #### 禁止されている MOD・クライアント
 
@@ -125,6 +126,7 @@ VPN・プロキシを使った接続は基本禁止していますが、やむ�
 | カルロス##5454           | karlos753   |
 | 豚隊長~人参うまい~##3965 | Buta_taicho |
 | かわさん##5519           | Kawasan47   |
+| プログラGames!##0768      | Purogura    | 
 
 ## 第六条 その他
 
