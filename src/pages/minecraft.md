@@ -74,7 +74,7 @@ Met's サーバーへようこそ！
 - XRay、鉱石探知 MOD
 - WorldDownloader
 - AutoClicker(外部連打ツールも含む)
-- PVP 支援クライアント(BadLion,Feather,Lunar など)
+- バニラのプレイヤーと大きな差が生まれるpvpクライアント
 - 自動操作 MOD・クライアント(baritone など)
 - サーバーに負荷をかける MOD・クライアント
 - バニラでは不可能な行動が可能になり、他プレイヤーとの間に大きな差が生まれる MOD・クライアント
