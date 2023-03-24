@@ -44,9 +44,9 @@ module.exports = {
                 showReadingTime: true,
                 feedOptions: {
                     type: 'rss',
-                    title: '',
+                    title: 'Met\'s Server Blog feed',
                     description: '',
-                    copyright: '',
+                    copyright: `Copyright © ${new Date().getFullYear()} Met's Server`,
                     language: undefined,
                     createFeedItems: async (params) => {
                         const { blogPosts, defaultCreateFeedItems, ...rest } = params;
