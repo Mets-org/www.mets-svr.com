@@ -1,23 +1,15 @@
 ---
-title: Welcome
+
 ---
 
-# 規約一覧
+<center><img src="img/logo.svg" width="300rem"/></center>
 
-### [Met's サーバー利用規約](terms)
+<br/>
 
-発効日： 2023 年 4 月 1 日
+# What is Met's Server?
 
-制定： 2023 年 3 月 22 日
+Met's Server とは唯一伸 **met 様** が開く人民どもの集いの場です
 
-### [Met's サーバーコミュニティガイドライン](community-guideline)
-
-発効日： 2023 年 4 月 1 日
-
-制定： 2023 年 3 月 22 日
-
-### [Met's サーバー マインクラフトサーバー利用規約](minecraft)
-
-発効日： 2023 年 4 月 1 日
-
-制定： 2023 年 3 月 22 日
+<a className="button button--primary" href="https://discord.gg/jG332tPs2D">
+    Join Now
+</a>

@@ -13,14 +13,58 @@ module.exports = {
                     '**/__tests__/**',
                 ],
                 mdxPageComponent: '@theme/MDXPage',
-            }
-        ]
+            },
+        ],
+        [
+            '@docusaurus/plugin-content-blog',
+            {
+                path: 'blog',
+                blogTitle: 'Blog title',
+                blogDescription: 'Blog',
+                blogSidebarCount: 5,
+                blogSidebarTitle: 'All our posts',
+                routeBasePath: 'blog',
+                include: ['**/*.{md,mdx}'],
+                exclude: [
+                    '**/_*.{js,jsx,ts,tsx,md,mdx}',
+                    '**/_*/**',
+                    '**/*.test.{js,jsx,ts,tsx}',
+                    '**/__tests__/**',
+                ],
+                postsPerPage: 10,
+                blogListComponent: '@theme/BlogListPage',
+                blogPostComponent: '@theme/BlogPostPage',
+                blogTagsListComponent: '@theme/BlogTagsListPage',
+                blogTagsPostsComponent: '@theme/BlogTagsPostsPage',
+                remarkPlugins: [import('remark-math')],
+                rehypePlugins: [],
+                beforeDefaultRemarkPlugins: [],
+                beforeDefaultRehypePlugins: [],
+                truncateMarker: /<!--\s*(truncate)\s*-->/,
+                showReadingTime: true,
+                feedOptions: {
+                    type: 'rss',
+                    title: '',
+                    description: '',
+                    copyright: '',
+                    language: undefined,
+                    createFeedItems: async (params) => {
+                        const { blogPosts, defaultCreateFeedItems, ...rest } = params;
+                        return defaultCreateFeedItems({
+                            // keep only the 10 most recent blog posts in the feed
+                            blogPosts: blogPosts.filter((item, index) => index < 10),
+                            ...rest,
+                        });
+                    },
+                },
+            },
+        ],
     ],
     themes: ['@docusaurus/theme-classic'],
 
     baseUrl: "/",
 
-    title: "Met's Server Terms",
+    title: "Met's Server",
     url: "https://www.mets-svr.com/",
 
     trailingSlash: false,
@@ -37,7 +81,7 @@ module.exports = {
             respectPrefersColorScheme: true,
         },
         navbar: {
-            title: 'Met\'s Server Terms',
+            title: 'Met\'s Server',
             logo: {
                 alt: 'Logo',
                 src: '/img/logo.svg',
@@ -46,18 +90,13 @@ module.exports = {
             },
             items: [
                 {
-                    to: 'terms',
-                    label: '利用規約',
+                    to: 'blog',
+                    label: 'Blog',
                     position: 'left',
                 },
                 {
-                    to: 'community-guideline',
-                    label: 'コミュニティガイドライン',
-                    position: 'left',
-                },
-                {
-                    to: 'minecraft',
-                    label: 'マインクラフトサーバー利用規約',
+                    to: 'terms-index',
+                    label: 'Terms',
                     position: 'left',
                 },
                 {
@@ -92,7 +131,31 @@ module.exports = {
                         },
                     ],
                 },
+                {
+                    title: 'Legal',
+                    items: [
+                        {
+                            label: 'Terms',
+                            to: 'terms'
+                        },
+                        {
+                            label: 'Minecraft Terms',
+                            to: 'minecraft'
+                        },
+                        {
+                            label: 'Community Guideline',
+                            to: 'community-guideline'
+                        },
+                    ],
+                },
             ],
+            logo: {
+                alt: 'Met\'s Server Logo',
+                src: 'img/logo.svg',
+                href: 'https://mets-svr.com/',
+                width: 32,
+                height: 32,
+            },
             copyright: `Copyright © ${new Date().getFullYear()} Met's Server`,
         },
     },
