@@ -1,5 +1,4 @@
 ---
-
 ---
 
 <center><img src="img/logo.svg" width="300rem"/></center>

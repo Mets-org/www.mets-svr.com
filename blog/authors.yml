@@ -1,3 +1,9 @@
+# <MCID>:
+#   name: <表示名>
+#   title: <簡単な自己紹介>
+#   url: <SNSなどのリンク>
+#   image_url: <プロフィール画像のリンク>
+#   email: <任意>
 ikafly144:
   name: ikafly
   title: "Met's サーバーの開発者"
@@ -15,3 +21,8 @@ Kawasan47:
   title: 主にかにを討伐している
   url: https://twitter.com/Ri_ri_047?s=20
   image_url: https://i.imgur.com/f2lgTu4.png
+Buta_taicho:
+  name: 豚隊長
+  title: "寮に入れられた豚 Discordは大体見てます（メイドなのは罰ゲームだからね!?）"
+  url: https://twitter.com/butataicho
+  image_url: https://pbs.twimg.com/profile_images/1556596053175963649/pYKclSXI_400x400.jpg
