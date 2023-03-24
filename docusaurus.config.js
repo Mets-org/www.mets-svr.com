@@ -43,7 +43,7 @@ module.exports = {
                 truncateMarker: /<!--\s*(truncate)\s*-->/,
                 showReadingTime: true,
                 feedOptions: {
-                    type: 'rss',
+                    type: 'all',
                     title: 'Met\'s Server Blog feed',
                     description: '',
                     copyright: `Copyright © ${new Date().getFullYear()} Met's Server`,
