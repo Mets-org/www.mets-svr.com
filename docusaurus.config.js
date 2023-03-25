@@ -101,7 +101,7 @@ module.exports = {
                 },
                 {
                     href: "https://mets-svr.com/",
-                    label: "公式ページ",
+                    label: "公式ページ(未完成)",
                     position: 'right',
                 },
             ],
