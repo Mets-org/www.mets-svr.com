@@ -1,9 +1,9 @@
 {
     "dependencies": {
-        "@docusaurus/core": "2.3.1",
-        "@docusaurus/plugin-content-blog": "^2.3.1",
-        "@docusaurus/plugin-content-pages": "^2.3.1",
-        "@docusaurus/theme-classic": "^2.3.1",
+        "@docusaurus/core": "^2.4.0",
+        "@docusaurus/plugin-content-blog": "^2.4.0",
+        "@docusaurus/plugin-content-pages": "^2.4.0",
+        "@docusaurus/theme-classic": "^2.4.0",
         "remark-math": "^5.1.1"
     }
 }
