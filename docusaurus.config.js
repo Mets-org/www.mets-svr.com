@@ -99,11 +99,6 @@ module.exports = {
                     label: 'Terms',
                     position: 'left',
                 },
-                {
-                    href: "https://mets-svr.com/",
-                    label: "公式ページ(未完成)",
-                    position: 'right',
-                },
             ],
         },
         footer: {
