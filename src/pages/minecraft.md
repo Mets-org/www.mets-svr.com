@@ -110,14 +110,14 @@ VPN・プロキシを使った接続は基本禁止していますが、やむ�
 
 - OP 一覧 (2022 年 03 月 22 日時点)
 
-| Discord ID                           | MCID        |
-| ------------------------------------ | ----------- |
-| [met#4232](839884489424502855)       | TAKE5595    |
-| [crab55e](776726560929480707)        | Crab55e     |
-| [karlos753](527514813799333889)      | karlos753   |
-| [butataicho](796350579286867988)     | Buta_taicho |
-| [kawasan47](964438295440396320)      | Kawasan47   |
-| [purogura_games](967372572859695184) | Purogura    |
+| Discord ID                                                     | MCID        |
+| -------------------------------------------------------------- | ----------- |
+| [met#4232](https://discord.com/users/839884489424502855)       | TAKE5595    |
+| [crab55e](https://discord.com/users/776726560929480707)        | Crab55e     |
+| [karlos753](https://discord.com/users/527514813799333889)      | karlos753   |
+| [butataicho](https://discord.com/users/796350579286867988)     | Buta_taicho |
+| [kawasan47](https://discord.com/users/964438295440396320)      | Kawasan47   |
+| [purogura_games](https://discord.com/users/967372572859695184) | Purogura    |
 
 ## 第六条 その他
 
