@@ -131,15 +131,15 @@ module.exports = {
                     items: [
                         {
                             label: 'Terms',
-                            to: 'terms'
+                            to: 'terms',
                         },
                         {
                             label: 'Minecraft Terms',
-                            to: 'minecraft'
+                            to: 'minecraft',
                         },
                         {
                             label: 'Community Guideline',
-                            to: 'community-guideline'
+                            to: 'community-guideline',
                         },
                     ],
                 },
