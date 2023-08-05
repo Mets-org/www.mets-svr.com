@@ -141,6 +141,10 @@ module.exports = {
                             label: 'Community Guideline',
                             to: 'community-guideline',
                         },
+                        {
+                            label: 'Terms for Groups',
+                            to: 'group',
+                        },
                     ],
                 },
             ],
