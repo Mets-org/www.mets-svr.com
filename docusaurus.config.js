@@ -59,8 +59,13 @@ module.exports = {
                 },
             },
         ],
+        [
+            '@docusaurus/theme-classic',
+            {
+                customCss: [require.resolve('./src/css/index.css')],
+            },
+        ],
     ],
-    themes: ['@docusaurus/theme-classic'],
 
     baseUrl: "/",
 

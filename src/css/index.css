@@ -1,0 +1,165 @@
+.desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.desktop .div {
+    background-color: #ffffff;
+    height: 2014px;
+    position: relative;
+    width: 1440px;
+}
+
+.desktop .overlap {
+    background-color: #5865f2;
+    border-radius: 30px;
+    height: 74px;
+    left: 548px;
+    position: absolute;
+    top: 1559px;
+    width: 344px;
+}
+
+.desktop .discord-mark-white {
+    height: 42px;
+    left: 44px;
+    position: absolute;
+    top: 18px;
+    width: 55px;
+}
+
+.desktop .text-wrapper {
+    color: #ffffff;
+    font-family: "Noto Sans JP Thin-Bold", Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    left: 120px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 12px;
+}
+
+.desktop .discord {
+    color: #000000;
+    font-family: "Noto Sans JP Thin-Bold", Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    left: 489px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 1372px;
+    width: 461px;
+}
+
+.desktop .group {
+    height: 256px;
+    left: 280px;
+    position: absolute;
+    top: 1066px;
+    width: 886px;
+}
+
+.desktop .overlap-group {
+    background-image: url(../../static/img/mask-group.png);
+    background-size: 100% 100%;
+    height: 256px;
+    left: 624px;
+    position: absolute;
+    top: 0;
+    width: 256px;
+}
+
+.desktop .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Noto Sans JP Thin-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 29px;
+}
+
+.desktop .div-wrapper {
+    background-image: url(../../static/img/mask-group-2.png);
+    background-size: 100% 100%;
+    height: 256px;
+    left: 312px;
+    position: absolute;
+    top: 0;
+    width: 256px;
+}
+
+.desktop .overlap-group-2 {
+    background-image: url(../../static/img/mask-group-1.png);
+    background-size: 100% 100%;
+    height: 256px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 256px;
+}
+
+.desktop .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Noto Sans JP Thin-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 29px;
+}
+
+.desktop .text-wrapper-4 {
+    color: #000000;
+    font-family: "Noto Sans JP Thin-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    left: 747px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 818px;
+    width: 413px;
+}
+
+.desktop .text-wrapper-5 {
+    color: #000000;
+    font-family: "Noto Sans JP Thin-Bold", Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    left: 747px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 759px;
+    width: 333px;
+}
+
+.desktop .rectangle {
+    background-color: #d9d9d9;
+    height: 236px;
+    left: 280px;
+    position: absolute;
+    top: 735px;
+    width: 421px;
+}
+
+.desktop .rectangle-2 {
+    background-color: #d9d9d9;
+    height: 518px;
+    left: 0;
+    position: absolute;
+    top: 130px;
+    width: 1440px;
+}
