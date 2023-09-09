@@ -63,7 +63,7 @@ module.exports = {
     themes: ['@docusaurus/theme-classic'],
 
     clientModules: [
-        require.resolve('./src/js/index.js'),
+        require.resolve('./query-scroller.js'),
     ],
 
     baseUrl: "/",
