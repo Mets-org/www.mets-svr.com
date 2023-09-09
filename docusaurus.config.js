@@ -62,6 +62,10 @@ module.exports = {
     ],
     themes: ['@docusaurus/theme-classic'],
 
+    clientModules: [
+        require.resolve('./src/js/index.js'),
+    ],
+
     baseUrl: "/",
 
     title: "Met's Server",
