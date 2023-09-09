@@ -58,7 +58,7 @@ GitHub にはコードを管理するために便利な仕組みがたくさん�
 その下にある
 
 > 「Would you like to receive product updates and announcements via email?
-> Type "y" for yes or "n" for no」</br>
+> Type "y" for yes or "n" for no」
 
 この質問は GitHub からのアップデートやアナウンスなどの情報をメールで受け取るかどうかを`yes(y) or no(n)`で答えます。
 受け取りたい場合は`y`を入力して次へ進みます。
