@@ -3,6 +3,7 @@ import Translate, { translate } from '@docusaurus/Translate';
 import { PageMetadata } from '@docusaurus/theme-common';
 import Layout from '@theme/Layout';
 import CodeBlock from '@theme/CodeBlock';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 export default function NotFound() {
   return (
     <>
@@ -37,10 +38,14 @@ export default function NotFound() {
                   description="The 2nd paragraph of the 404 page">
                   あなたがどうしても正しいURLにたどりつけないなら下の内容を詳しい人に伝えるといいかもしれませんね。
                 </Translate>
-                <CodeBlock language='yml'>
-                  url: {document.URL}<br />
-                  referrer: {document.referrer != '' ? document.referrer : 'undefined'}
-                </CodeBlock>
+                <BrowserOnly>
+                  {
+                    () => <CodeBlock language='yml'>
+                      url: {document.URL}<br />
+                      referrer: {document.referrer != '' ? document.referrer : 'undefined'}
+                    </CodeBlock>
+                  }
+                </BrowserOnly>
               </p>
             </div>
           </div>
