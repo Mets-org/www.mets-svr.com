@@ -62,8 +62,11 @@ module.exports = {
     ],
     themes: ['@docusaurus/theme-classic'],
 
-    clientModules: [
-        require.resolve('./query-scroller.js'),
+    scripts: [
+        {
+            src: 'https://mets-svr.com/scripts/query-scroller.js',
+            defer: true,
+        },
     ],
 
     baseUrl: "/",
