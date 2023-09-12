@@ -3,8 +3,6 @@
 
 <center><img src="img/logo.svg" width="300rem"/></center>
 
-<br/>
-
 # What is Met's Server?
 
 Met's Server とは唯一伸 **met 様** が開く人民どもの集いの場です
