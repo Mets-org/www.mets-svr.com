@@ -62,10 +62,6 @@ module.exports = {
     ],
     themes: ['@docusaurus/theme-classic'],
 
-    clientModules: [
-        require.resolve('./query-scroller.js'),
-    ],
-
     baseUrl: "/",
 
     title: "Met's Server",
