@@ -59,6 +59,31 @@ module.exports = {
                 },
             },
         ],
+        [
+            '@docusaurus/plugin-client-redirects',
+            {
+                fromExtensions: ['html', 'htm', 'md'], // /myPage.html -> /myPage
+                toExtensions: ['exe', 'zip'], // /myAsset -> /myAsset.zip (存在すれば)
+                redirects: [
+                    {
+                        to: '/terms/list',
+                        from: '/terms-index',
+                    },
+                    {
+                        to: '/terms/group',
+                        from: '/group',
+                    },
+                    {
+                        to: '/terms/minecraft',
+                        from: '/minecraft',
+                    },
+                    {
+                        to: '/terms/community-guideline',
+                        from: '/community-guideline',
+                    },
+                ],
+            },
+        ],
     ],
     themes: ['@docusaurus/theme-classic'],
 
@@ -102,14 +127,9 @@ module.exports = {
                     position: 'left',
                 },
                 {
-                    to: 'terms-index',
+                    to: 'terms/list',
                     label: 'Terms',
                     position: 'left',
-                },
-                {
-                    href: "https://mets-svr.com/",
-                    label: "公式ページ(未完成)",
-                    position: 'right',
                 },
             ],
         },
@@ -143,15 +163,19 @@ module.exports = {
                     items: [
                         {
                             label: 'Terms',
-                            to: 'terms'
+                            to: 'terms',
                         },
                         {
                             label: 'Minecraft Terms',
-                            to: 'minecraft'
+                            to: 'terms/minecraft',
                         },
                         {
                             label: 'Community Guideline',
-                            to: 'community-guideline'
+                            to: 'terms/community-guideline',
+                        },
+                        {
+                            label: 'Terms for Groups',
+                            to: 'terms/group',
                         },
                     ],
                 },
