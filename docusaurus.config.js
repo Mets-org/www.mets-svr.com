@@ -89,6 +89,16 @@ module.exports = {
 
     baseUrl: "/",
 
+    i18n: {
+        defaultLocale: 'ja',
+        locales: ['ja'],
+        localeConfigs: {
+            ja: {
+                htmlLang: 'ja',
+            },
+        },
+    },
+
     title: "Met's Server",
     url: "https://www.mets-svr.com/",
 
