@@ -4,12 +4,6 @@
 #   url: <SNSなどのリンク>
 #   image_url: <プロフィール画像のリンク>
 #   email: <任意>
-ikafly144:
-  name: ikafly
-  title: "Met's サーバーの開発者"
-  url: https://github.com/ikafly144
-  image_url: https://github.com/ikafly144.png
-  email: ikafly144@sabafly.net
 Crab55e:
   name: かに
   title: 開発とデザインと管理とかをしてる、（出来てるとは言ってない）

@@ -5,11 +5,13 @@ tags:
   - management
   - write
   - blog
+title: ブログ記事の書き方解説
+date: 2023-03-25
 ---
 
-# ブログ記事の書き方解説
-
 まったく何も知らない状態から Met's 鯖のブログを書く方法を 1 から解説します。
+
+<!-- 見出し -->
 
 ## 必要なもの
 
@@ -20,9 +22,9 @@ tags:
 
 1. [GitHub アカウントを作成する](#github-アカウントを作成する)(★★☆☆☆)
 2. [Mets-org に参加する](#mets-org-に参加する)(★★☆☆☆)
-4. [用語について理解する](#github-の用語について)(★★★☆☆)
-5. [著者の一人として登録する](#著者の一人として登録する)(★☆☆☆☆)
-6. [基本的な構文を覚える](#記事を作成する)(★★☆☆☆)
+3. [用語について理解する](#github-の用語について)(★★★☆☆)
+4. [著者の一人として登録する](#著者の一人として登録する)(★☆☆☆☆)
+5. [基本的な構文を覚える](#記事を作成する)(★★☆☆☆)
 
 > ★ むずかしさ
 
@@ -35,18 +37,18 @@ GitHub にはコードを管理するために便利な仕組みがたくさん�
 ## GitHub アカウントを作成する
 
 次の手順を踏み、GitHub のアカウントを作成します。
-既に GitHub のアカウントを持っている人はこの手順を飛ばして [次のセクション](#Mets-org-に参加する)から始めてください。
+既に GitHub のアカウントを持っている人はこの手順を飛ばして [次のセクション](#mets-org-に参加する)から始めてください。
 
 ### 1. GitHub のページを開く
 
 [ここから GitHub](https://github.com)を開いて、"Sign up"を押します
 
-![image](img/blog/how_to_post_a_blog_page/open-github-home.png)
+![image](img/open-github-home.png)
 *githubのトップページ画像*
 
 ### 2. 情報を入力する
 
-![image](img/blog/how_to_post_a_blog_page/create-account.png)
+![image](img/create-account.png)
 *メールアドレスや、パスワードなどを入力して認証を受ける*
 
 - **Enter your email**にはメールアドレス
@@ -71,7 +73,7 @@ GitHub にはコードを管理するために便利な仕組みがたくさん�
 
 プロフィールを設定します、アカウントのアイコン画像などがあれば用意しておきましょう。(任意)
 
-![image](img/blog/how_to_post_a_blog_page/profile-setting-0.png)
+![image](img/profile-setting-0.png)
 
 この画像のような画面になったら、GitHubからの質問が始まります。
 
@@ -117,7 +119,7 @@ GitHub にある [Mets-org](https://github.com/Mets-org) のページを開い�
 | Pull request | プルリクエスト           | [Pull requests](https://github.com/Mets-org/www.mets-svr.com/pulls)欄などから作成し、既存のブランチに対して変更を反映のマージをリクエストします |
 | Organization | オルガナイゼーション | 複数のメンバーでリポジトリを共同管理できる組織、グループ                                                                                                        |
 
-#### 使い方
+### 使い方
 
 - 「mets 鯖の Organization のリポジトリに豚の調理方法についての新しいブログ記事をコミットする」
 - 「美味しいチャーシューの作り方についての記事を作ったので、mets 鯖のブログに入れてほしい、プルリクを送ろう」
@@ -132,9 +134,9 @@ GitHub にある [Mets-org](https://github.com/Mets-org) のページを開い�
 
 ## 著者の一人として登録する
 
-ブログ記事の作者として登録できるように [`authors.yml`](blog/authors.yml) に自分を著者の一人として追加します。
+ブログ記事の作者として登録できるように [`authors.yml`](https://github.com/mets-org/www.mets-svr.com/blob/main/blog/authors.yml) に自分を著者の一人として追加します。
 
-[`authors.yml`](blog/authors.yml) には以下のようにプロフィールを記述します。
+[`authors.yml`](https://github.com/mets-org/www.mets-svr.com/blob/main/blog/authors.yml) には以下のようにプロフィールを記述します。
 
 ```yaml
 <MCID>:
@@ -158,7 +160,7 @@ GitHub 上にブログページを作成します
 [Mets-org/www.mets-svr.com](https://github.com/Mets-org/www.mets-svr.com) を開き、
 その中にある`blog`というフォルダを開きます。そして`Add file`、`Create new file`を押します。
 
-![image](img/blog/how_to_post_a_blog_page/add-files-button.png)
+![image](img/add-files-button.png)
 *blog フォルダにファイルを作成する*
 
 `Name your file...` の欄にファイル名を書きます、ここはなるべくシンプルでわかりやすい英語の名前にしましょう。
@@ -226,7 +228,7 @@ tags:
 
 最後に緑色のボタンを押すことでコミットを作成して、プッシュすることができます。
 
-# さいごに
+## さいごに
 
 ここまで記事を読んでいただきありがとうございます。お疲れさまでした、以上で「ブログの書き方解説」は終わりとなります。
 今後記事を書いていく上で分からないことがあったらまたこの記事を読み返してください。

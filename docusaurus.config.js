@@ -19,8 +19,8 @@ module.exports = {
             '@docusaurus/plugin-content-blog',
             {
                 path: 'blog',
-                blogTitle: 'Blog title',
-                blogDescription: 'Blog',
+                blogTitle: 'ブログ',
+                blogDescription: '誰も書かない(泣)',
                 blogSidebarCount: 5,
                 blogSidebarTitle: 'All our posts',
                 routeBasePath: 'blog',
@@ -40,7 +40,7 @@ module.exports = {
                 rehypePlugins: [],
                 beforeDefaultRemarkPlugins: [],
                 beforeDefaultRehypePlugins: [],
-                truncateMarker: /<!--\s*(truncate)\s*-->/,
+                truncateMarker: /<!--\s*(truncate|見出し)\s*-->/,
                 showReadingTime: true,
                 feedOptions: {
                     type: 'all',
