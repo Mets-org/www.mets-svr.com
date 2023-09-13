@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserView, MobileView } from "react-device-detect";
 import Translate, { translate } from '@docusaurus/Translate';
 import { PageMetadata } from '@docusaurus/theme-common';
 import Layout from '@theme/Layout';
@@ -15,7 +16,9 @@ export default function NotFound() {
       />
       <Layout>
         <main className="container margin-vert--xl">
-          <img align="right" src="https://media.tenor.com/ampW8g8v-vMAAAAd/hack-khaby.gif" width="400rem" style={{ maxWidth: "60%" }} />
+          <BrowserView>
+            <img align="right" src="https://media.tenor.com/ampW8g8v-vMAAAAd/hack-khaby.gif" style={{ maxWidth: "60%" }} />
+          </BrowserView>
           <div className="row">
             <div className="col col--6 col--offset-3">
               <h1 className="hero__title">
@@ -25,6 +28,9 @@ export default function NotFound() {
                   道に迷われましたかな？
                 </Translate>
               </h1>
+              <MobileView>
+                <img src="https://media.tenor.com/ampW8g8v-vMAAAAd/hack-khaby.gif" style={{ padding: "1em" }} />
+              </MobileView>
               <p>
                 <Translate
                   id="theme.NotFound.p1"
