@@ -105,7 +105,6 @@ module.exports = {
                     "**/*.test.{js,jsx,ts,tsx}",
                     "**/__tests__/**",
                 ],
-                docLayoutComponent: "@theme/DocPage",
                 docItemComponent: "@theme/DocItem",
                 remarkPlugins: [import("remark-math")],
                 showLastUpdateAuthor: true,
