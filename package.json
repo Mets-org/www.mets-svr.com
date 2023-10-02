@@ -6,7 +6,7 @@
         "@docusaurus/plugin-content-docs": "^2.4.3",
         "@docusaurus/plugin-content-pages": "^2.4.1",
         "@docusaurus/theme-classic": "^2.4.3",
-        "remark-math": "^5.1.1",
+        "remark-math": "^6.0.0",
         "update-browserslist-db": "^1.0.11"
     },
     "devDependencies": {
