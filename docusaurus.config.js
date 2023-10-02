@@ -115,6 +115,13 @@ module.exports = {
     ],
     themes: ["@docusaurus/theme-classic"],
 
+    scripts: [
+        {
+            src: 'https://mets-svr.com/scripts/query-scroller.js',
+            defer: true,
+        },
+    ],
+
     baseUrl: "/",
 
     i18n: {
