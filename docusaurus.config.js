@@ -117,7 +117,7 @@ module.exports = {
 
     scripts: [
         {
-            src: 'https://mets-svr.com/scripts/query-scroller.js',
+            src: '/js/query-scroller.js',
             defer: true,
         },
     ],
