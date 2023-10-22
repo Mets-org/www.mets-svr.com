@@ -40,7 +40,7 @@ module.exports = {
                 rehypePlugins: [],
                 beforeDefaultRemarkPlugins: [],
                 beforeDefaultRehypePlugins: [],
-                truncateMarker: /<!--\s*(truncate|見出し)\s*-->/,
+                truncateMarker: /({\/\*|<!--)\s*(truncate|見出し)\s*(\*\/|-->)/,
                 showReadingTime: true,
                 feedOptions: {
                     type: "all",
