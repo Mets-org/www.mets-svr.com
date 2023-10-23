@@ -4,6 +4,8 @@ import type * as Redirects from '@docusaurus/plugin-client-redirects';
 import type * as Pages from '@docusaurus/plugin-content-pages';
 import type * as Docs from '@docusaurus/plugin-content-docs';
 import type * as ThemeCommon from '@docusaurus/theme-common';
+import type * as ThemeClassic from '@docusaurus/theme-classic';
+import { themes } from 'prism-react-renderer';
 
 const config: Config = {
     plugins: [
@@ -122,7 +124,14 @@ const config: Config = {
         ],
     ],
     themes: [
-        "@docusaurus/theme-classic"
+        [
+            "@docusaurus/theme-classic",
+            {
+                customCss: [
+                    "static/css/custom.css"
+                ],
+            } satisfies ThemeClassic.Options,
+        ],
     ],
 
     scripts: [
@@ -237,7 +246,22 @@ const config: Config = {
             },
             copyright: `Copyright © ${new Date().getFullYear()} Met's Server`,
         },
+        prism: {
+            theme: themes.github,
+            darkTheme: themes.dracula,
+            magicComments: [
+                {
+                    className: 'theme-code-block-highlighted-line',
+                    line: 'highlight-next-line',
+                    block: { start: 'highlight-start', end: 'highlight-end' },
+                },
+                {
+                    className: 'code-block-error-line',
+                    line: 'This will error',
+                },
+            ],
+        },
     } satisfies ThemeCommon.UserThemeConfig,
 };
 
-module.exports = config;
+export default config;

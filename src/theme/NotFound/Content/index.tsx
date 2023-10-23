@@ -3,7 +3,6 @@ import type { Props } from "@theme/NotFound/Content";
 import { BrowserView, MobileView } from "react-device-detect";
 import CodeBlock from "@theme/CodeBlock";
 import BrowserOnly from "@docusaurus/BrowserOnly";
-import CopyButton from "@theme/CodeBlock/CopyButton";
 
 export default function NotFoundContent({ className }: Props): JSX.Element {
   return (
