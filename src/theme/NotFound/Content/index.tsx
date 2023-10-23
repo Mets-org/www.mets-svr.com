@@ -32,18 +32,18 @@ export default function NotFoundContent({ className }: Props): JSX.Element {
           </p>
           <p>
             あなたがどうしても正しいURLにたどりつけないなら下の内容を詳しい人に伝えるといいかもしれませんね。
-            <BrowserOnly>
-              {() => {
-                let content:string = `url: ${document.URL}\nreferrer: ${document.referrer != "" ? document.referrer : "undefined"}`
-                return (
-                <>
-                  <CodeBlock language="yml">
-                    {content}
-                  </CodeBlock>
-                </>
-              )}}
-            </BrowserOnly>
           </p>
+          <BrowserOnly>
+            {() => {
+              let content:string = `url: ${document.URL}\nreferrer: ${document.referrer != "" ? document.referrer : "undefined"}`
+              return (
+              <>
+                <CodeBlock language="yml" title="404-info">
+                  {content}
+                </CodeBlock>
+              </>
+            )}}
+          </BrowserOnly>
         </div>
       </div>
     </main>
