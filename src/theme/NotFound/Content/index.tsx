@@ -3,6 +3,7 @@ import type { Props } from "@theme/NotFound/Content";
 import { BrowserView, MobileView } from "react-device-detect";
 import CodeBlock from "@theme/CodeBlock";
 import BrowserOnly from "@docusaurus/BrowserOnly";
+import CopyButton from "@theme/CodeBlock/CopyButton";
 
 export default function NotFoundContent({ className }: Props): JSX.Element {
   return (
@@ -32,14 +33,15 @@ export default function NotFoundContent({ className }: Props): JSX.Element {
           <p>
             あなたがどうしても正しいURLにたどりつけないなら下の内容を詳しい人に伝えるといいかもしれませんね。
             <BrowserOnly>
-              {() => (
-                <CodeBlock language="yml">
-                  url: {document.URL}
-                  <br />
-                  referrer:{" "}
-                  {document.referrer != "" ? document.referrer : "undefined"}
-                </CodeBlock>
-              )}
+              {() => {
+                let content:string = `url: ${document.URL}\nreferrer: ${document.referrer != "" ? document.referrer : "undefined"}`
+                return (
+                <>
+                  <CodeBlock language="yml">
+                    {content}
+                  </CodeBlock>
+                </>
+              )}}
             </BrowserOnly>
           </p>
         </div>
