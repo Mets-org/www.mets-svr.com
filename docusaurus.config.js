@@ -166,17 +166,21 @@ module.exports = {
             style: "dark",
             links: [
                 {
-                    title: "Community",
+                    title: "Learn",
                     items: [
                         {
-                            label: "Discord",
-                            href: "https://discord.gg/jG332tPs2D",
+                            label: "Document",
+                            href: "docs"
                         },
                     ],
                 },
                 {
                     title: "Social",
                     items: [
+                        {
+                            label: "Discord",
+                            href: "https://discord.gg/jG332tPs2D",
+                        },
                         {
                             label: "GitHub",
                             href: "https://github.com/Mets-org",
