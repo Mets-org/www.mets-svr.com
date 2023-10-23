@@ -21,6 +21,7 @@ const config: Config = {
                     "**/*.test.{js,jsx,ts,tsx}",
                     "**/__tests__/**",
                 ],
+                remarkPlugins: [require('@docusaurus/remark-plugin-npm2yarn')],
                 mdxPageComponent: "@theme/MDXPage",
             } satisfies Pages.Options,
         ],
@@ -46,6 +47,12 @@ const config: Config = {
                 blogTagsListComponent: "@theme/BlogTagsListPage",
                 blogTagsPostsComponent: "@theme/BlogTagsPostsPage",
                 rehypePlugins: [],
+                remarkPlugins: [
+                    [
+                        require('@docusaurus/remark-plugin-npm2yarn'),
+                        { converters: ['pnpm', 'yarn'] },
+                    ],
+                ],
                 beforeDefaultRemarkPlugins: [],
                 beforeDefaultRehypePlugins: [],
                 truncateMarker: /({\/\*|<!--)\s*(truncate|見出し)\s*(\*\/|-->)/,
@@ -116,6 +123,9 @@ const config: Config = {
                     "**/_*/**",
                     "**/*.test.{js,jsx,ts,tsx}",
                     "**/__tests__/**",
+                ],
+                remarkPlugins: [
+                    [require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }],
                 ],
                 docItemComponent: "@theme/DocItem",
                 showLastUpdateAuthor: true,
