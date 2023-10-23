@@ -114,6 +114,13 @@ module.exports = {
     ],
     themes: ["@docusaurus/theme-classic"],
 
+    scripts: [
+        {
+            src: '/js/query-scroller.js',
+            defer: true,
+        },
+    ],
+
     baseUrl: "/",
 
     i18n: {
