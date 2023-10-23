@@ -10,7 +10,12 @@
         "update-browserslist-db": "^1.0.11"
     },
     "devDependencies": {
-        "react-device-detect": "^2.2.3"
+        "@docusaurus/module-type-aliases": "^2.4.3",
+        "@docusaurus/tsconfig": "^0.0.0-5601",
+        "@docusaurus/types": "^2.4.3",
+        "@tsconfig/docusaurus": "^2.0.2",
+        "react-device-detect": "^2.2.3",
+        "typescript": "^5.2.2"
     },
     "scripts": {
         "docusaurus": "docusaurus",
