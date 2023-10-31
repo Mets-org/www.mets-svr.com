@@ -1,0 +1,17 @@
+:root {
+    --docusaurus-highlighted-code-line-bg: rgb(252, 247, 203);
+}
+
+/* If you have a different syntax highlighting theme for dark mode. */
+[data-theme='dark'] {
+    /* Color which works with dark mode syntax highlighting theme */
+    --docusaurus-highlighted-code-line-bg: rgb(74, 74, 74);
+}
+
+.code-block-error-line {
+    background-color: #ff000020;
+    display: block;
+    margin: 0 calc(-1 * var(--ifm-pre-padding));
+    padding: 0 var(--ifm-pre-padding);
+    border-left: 3px solid #ff000080;
+}

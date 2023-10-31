@@ -2,7 +2,7 @@
 title: markdownの書き方
 description: markdownを使って文章を装飾する方法
 last_update:
-  date: 2023-09-13
+  date: 2023-10-23
   author: ikafly
 ---
 
@@ -67,23 +67,23 @@ last_update:
 ## コードの引用
 
 ```md
-`npm install` を実行して依存関係を解決する
+`npm ci` を実行して依存関係を解決する
 ```
 
 <details>
   <summary>出力</summary>
 
-`npm install` を実行して依存関係を解決する
+`npm ci` を実行して依存関係を解決する
 
 </details>
 
-<code language="md">
-  {`\`\`\`go
+````md
+```go
 func main() {
     fmt.Println("Hello, World!")
 }
-\`\`\``}
-</code>
+```
+````
 
 <details>
   <summary>出力</summary>
@@ -207,8 +207,16 @@ Met's サーバーの公式サイトは[こちら](https://www.mets-svr.com/)
 
 ## コメント
 
+### md
+
 ```md
 <!-- これはコメントアウトされます -->
+```
+
+### mdx
+
+```mdx
+{/* これはコメントアウトされます */}
 ```
 
 ## 警告
@@ -280,9 +288,28 @@ Met's サーバーの公式サイトは[こちら](https://www.mets-svr.com/)
 
 </details>
 
+## 表
+
+```md
+| カラム１ | カラム２ |
+| -------- | -------- |
+| 内容 1-1 | 内容 2-1 |
+| 内容 1-2 | 内容 2-2 |
+```
+
+<details>
+  <summary>出力</summary>
+
+| カラム１ | カラム２ |
+| -------- | -------- |
+| 内容 1-1 | 内容 2-1 |
+| 内容 1-2 | 内容 2-2 |
+
+</details>
+
 ## 脚注
 
-```
+```md
 ここに脚注があります[^1]。
 
 複数行の脚注も利用できます[^2]。

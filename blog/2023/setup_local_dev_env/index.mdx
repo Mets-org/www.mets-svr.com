@@ -14,23 +14,23 @@ image: img/thumbnail/2023/how_to_write_markdown.png
 
 ローカル環境でブログ記事を書く方法を紹介します。
 
-<!-- 見出し -->
+{/* 見出し */}
 
 ## エディターを用意する
 
-GitHub上でもブログ記事の編集は可能ですが、エディターを使うことでよりmarkdownが書きやすくなります。
+GitHub 上でもブログ記事の編集は可能ですが、エディターを使うことでより markdown が書きやすくなります。
 
-数あるエディターのなかでも今回はVSCodeを使って進めていきます。
+数あるエディターのなかでも今回は VSCode を使って進めていきます。
 
 ### VSCode のインストール
 
-VSCodeは様々な機能を持ったテキストエディタです。
+VSCode は様々な機能を持ったテキストエディタです。
 拡張機能を使うことで様々な用途に使うことができます。
 
-[VSCodeのダウンロードページ](https://code.visualstudio.com/download) からVSCodeのインストーラーをダウンロードしましょう。
+[VSCode のダウンロードページ](https://code.visualstudio.com/download) から VSCode のインストーラーをダウンロードしましょう。
 
-インストーラーをダウンロードしたらそのままVSCodeをインストールします。
-インストーラーの指示通りにOKを押していってインストールが完了したらVSCodeを起動します。
+インストーラーをダウンロードしたらそのまま VSCode をインストールします。
+インストーラーの指示通りに OK を押していってインストールが完了したら VSCode を起動します。
 
 ![VSCodeの初期画面](img/vscode_1.png)
 
@@ -60,25 +60,29 @@ ext install DavidAnson.vscode-markdownlint yzhang.markdown-all-in-one shd101wyy.
 
 ![Git がインストールされていない](img/vscode_4.png)
 
-インストールされていない場合、Gitをインストールする必要があります。
+インストールされていない場合、Git をインストールする必要があります。
 
 `Ctrl + @` を押しターミナルを開きそこで以下のコマンドを実行します。
 
-#### Windows
+<Tabs groupId="operating-systems">
+  <TabItem value="win" label="Windows">
 
-```sh
+```bash
 winget install --id Git.Git -e --source winget
 ```
 
-#### Mac OS
+  </TabItem>
+  <TabItem value="mac" label="macOS">
 
-```sh
+```bash
 brew install git
 ```
 
-#### Linux
-
+  </TabItem>
+  <TabItem value="linux" label="Linux">
 ディストリビューションに合わせて[このページ](https://git-scm.com/download/linux)にあるコマンドを実行します。
+  </TabItem>
+</Tabs>
 
 ### リポジトリをクローンする
 
@@ -112,22 +116,22 @@ https://github.com/Mets-org/www.mets-svr.com.git
 ![node.js の公式サイト](img/node_1.png)
 
 インストーラーをダウンロードし、インストールも完了したら VSCode を再起動し、
-ターミナルに `npm` と入力しnode.jsがインストールできてるか確認しましょう。
+ターミナルに `npm` と入力し node.js がインストールできてるか確認しましょう。
 
 ### 依存解決
 
 ローカル環境でサイトをプレビューするには依存関係を用意する必要があります。
 依存解決の方法は簡単で、ターミナルで以下のコマンドを実行します。
 
-```sh
-npm ci
+```bash npm2yarn
+npm i
 ```
 
 ### プレビューサーバーを立ち上げる
 
 プレビューサーバーを立ち上げることでローカル環境で行った変更をリアルタイムに確認できます。
 
-```sh
+```bash npm2yarn
 npm run start
 ```
 
