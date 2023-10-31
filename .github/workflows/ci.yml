@@ -6,8 +6,7 @@ on:
       - opened
       - edited
       - reopened
-    branches:
-      - main
+      - synchronize
 
 jobs:
   build:
@@ -17,10 +16,10 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 20
           cache: npm
 
       - name: Install dependencies
         run: npm ci
       - name: Build website
-        run: npx docusaurus build
+        run: npm run build
