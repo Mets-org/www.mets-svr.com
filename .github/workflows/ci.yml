@@ -8,6 +8,7 @@ on:
       - reopened
     branches:
       - main
+      - development
 
 jobs:
   build:
