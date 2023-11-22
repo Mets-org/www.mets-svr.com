@@ -1,5 +1,6 @@
 ---
 title: 規約一覧
+description: Met's サーバー 規約一覧
 ---
 
 # Met's サーバー 規約一覧
