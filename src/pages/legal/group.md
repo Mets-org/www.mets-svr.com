@@ -1,5 +1,6 @@
 ---
 title: 団体に対する規約
+description: Met's サーバー 団体に対する規約
 ---
 
 
