@@ -17,7 +17,7 @@
         "@docusaurus/tsconfig": "^3.0.0",
         "@docusaurus/types": "^3.0.0",
         "@react-native/typescript-config": "^0.74.0",
-        "@types/react": "^18.2.37",
+        "@types/react": "^18.2.38",
         "react-device-detect": "^2.2.3",
         "typescript": "~5.2.2"
     },
