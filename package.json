@@ -19,7 +19,7 @@
         "@react-native/typescript-config": "^0.74.0",
         "@types/react": "^18.2.37",
         "react-device-detect": "^2.2.3",
-        "typescript": "~5.2.2"
+        "typescript": "~5.3.2"
     },
     "scripts": {
         "docusaurus": "docusaurus",
